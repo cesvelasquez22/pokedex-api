@@ -10,12 +10,6 @@ export class Pokemon extends Document {
   })
   name: string;
 
-  @Prop()
-  type: string;
-
-  @Prop()
-  description: string;
-
   @Prop({
     required: true,
     unique: true,

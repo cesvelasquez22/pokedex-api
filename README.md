@@ -7,6 +7,7 @@
 Made by [Nest](https://github.com/nestjs/nest) framework TypeScript.
 
 ## Development stack
+
 - [Nest CLI](https://docs.nestjs.com/first-steps)
 - [Docker](https://www.docker.com/)
 - [MongoDB](https://www.mongodb.com/)
@@ -34,6 +35,14 @@ yarn start:dev
 
 # production mode
 yarn start:prod
+```
+
+## Populate database - Development
+
+You can populate the database by calling the next request
+
+```
+localhost:3000/api/v2/seed
 ```
 
 ## Test
