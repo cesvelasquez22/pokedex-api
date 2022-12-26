@@ -48,6 +48,13 @@ You can populate the database by calling the next request:
 localhost:3000/api/v2/seed
 ```
 
+## Build production
+Follow the __env.template__ and create the __.env.prod__ file. Remember fill required fields.
+Then execute the following script to create the docker image:
+```bash
+docker-compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
 ## Test
 
 ```bash
