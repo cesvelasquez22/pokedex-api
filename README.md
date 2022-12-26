@@ -24,6 +24,9 @@ yarn install
 docker-compose up -d
 ```
 
+## Environment file
+Follow the __env.template__ and create the __.env__ file before running the application.
+
 ## Running the app
 
 ```bash
@@ -39,7 +42,7 @@ yarn start:prod
 
 ## Populate database - Development
 
-You can populate the database by calling the next request
+You can populate the database by calling the next request:
 
 ```
 localhost:3000/api/v2/seed
